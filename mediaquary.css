@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px) {
+  #dnav {
+    display: none;
+  }
+  #mnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    gap: 9rem;
+    margin: 1rem;
+  }
+  #mnav .logo {
+    font-size: 1rem;
+    font-weight: 700;
+    font-feature-settings: "clig" off, "liga" off;
+  }
+  #mnav img {
+    width: 2rem;
+    height: 2rem;
+  }
+  #mnav img:hover {
+    cursor: pointer;
+  }
+}

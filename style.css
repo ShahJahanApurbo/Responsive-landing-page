@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins;
+  font-size: 62.5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 8rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-size: 1rem;
+  color: #3a3a3a;
+  gap: 2rem;
+}
+.menu img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.menu ul li a {
+  color: #000;
+  text-decoration: none;
+}
+#mnav {
+  display: none;
+}
