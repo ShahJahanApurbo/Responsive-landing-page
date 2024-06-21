@@ -22,4 +22,40 @@
   #mnav img:hover {
     cursor: pointer;
   }
+
+  .hero-section {
+    height: 70vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 2rem 2rem;
+  }
+  .hero-image {
+    width: 20rem;
+    height: 20rem;
+  }
+  .hero-content {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .hero-title {
+    width: 25rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.375rem;
+  }
+  .hero-description {
+    color: #3a3a3a;
+
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .hero-button {
+    margin: 0 auto;
+  }
 }
