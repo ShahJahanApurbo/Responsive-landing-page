@@ -5,7 +5,7 @@
 
 body {
   font-family: Poppins;
-  /* font-size: 62.5%; */
+  font-size: 62.5%;
 }
 
 nav {
@@ -18,7 +18,6 @@ nav {
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  font-feature-settings: "clig" off, "liga" off;
 }
 
 .menu ul {
@@ -44,7 +43,7 @@ nav {
 }
 
 .hero-section {
-  height: 80vh;
+  height: 60vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,4 +97,24 @@ nav {
   position: absolute;
   bottom: 0.1rem;
   z-index: -1;
+}
+
+.horizontal-rule {
+  width: 100%;
+  height: 0.1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  margin: 2rem 0;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 2rem 8rem;
 }
